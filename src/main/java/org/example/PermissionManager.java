@@ -15,10 +15,8 @@ public class PermissionManager {
                 return "Admin";
             case DEVELOPER:
                 return "Developer";
-            case USER:
-                return "User";
             default:
-                return "Unknown";
+                return "User";
         }
     }
 
